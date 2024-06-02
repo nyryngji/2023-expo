@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FCP</title>
+  <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+  <div class="main">
+
+    <div class="frist">
+      <!-- <img class="fcp" src="fcpb.png" alt="로고"> -->
+      <img src="{{url_for('static', filename='image/fcpb.png')}}" alt="로고" class="fcp">
+      <h3 class="center">AILAB</h3>
+    </div>
+
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- <h4 id="start">게임 시작</h4> -->
+    <div class="second">
+      <!-- <img src="bg.png"> -->
+      <a href="game.html"><img src="{{url_for('static', filename='image/fcp_image2.png')}}" alt="배경" height="400px"></a>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h4 class="aa">게임 방법 설명</h4>
+    <div class="three">
+      
+      <img src="{{url_for('static', filename='image/tu1.png')}}" alt="배경">
+      <img src="{{url_for('static', filename='image/tu2.png')}}" alt="배경">
+      
+    </div>
+
+    <div class="four">
+      <img src="{{url_for('static', filename='image/tu3.png')}}" alt="배경">
+      <img src="{{url_for('static', filename='image/tu4.png')}}" alt="배경">
+    </div>
+
+    <div class="last">
+      <div class="floor-area">
+        <!-- <img src="dy.png" alt="동양미래대학교"> -->
+        <img src="{{url_for('static', filename='image/dy.png')}}" alt="동양미래">
+        <p id="left">
+          08221 서울시 구로구 경인로 445 ([구]고척동 62-160) TEL. 02-2610-1700 / FAX. 02-2688-5494<br>
+          COPYRIGHT(C) DONGYANG MIRAE UNIVERSITY. ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
